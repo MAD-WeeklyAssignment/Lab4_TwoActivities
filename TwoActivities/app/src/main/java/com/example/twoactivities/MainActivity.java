@@ -10,6 +10,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG=MainActivity.class.getSimpleName();
+    public static final String EXTRA_MESSAGE ="com.example.android.twoactivities.extra.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
