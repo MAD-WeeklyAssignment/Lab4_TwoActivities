@@ -7,24 +7,11 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button_three"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Text One"
-        android:onClick="launchSecondActivity"
-        app:layout_constraintBottom_toBottomOf="@+id/button_two"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_two"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
         android:id="@+id/button_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Text Two"
+        android:text="@string/text_one"
         android:onClick="launchSecondActivity"
         app:layout_constraintEnd_toStartOf="@+id/button_two"
         app:layout_constraintHorizontal_bias="0.5"
@@ -36,11 +23,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Text Three"
+        android:text="@string/text_two"
         android:onClick="launchSecondActivity"
         app:layout_constraintBottom_toBottomOf="@+id/button_one"
         app:layout_constraintEnd_toStartOf="@+id/button_three"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button_one"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_three"
+        android:onClick="launchSecondActivity"
+        app:layout_constraintBottom_toBottomOf="@+id/button_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_two"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
