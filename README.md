@@ -2,7 +2,7 @@
 Activities and Intents
 
 Log
-### <img src="https://github.com/MAD-WeeklyAssignment/Lab4_TwoActivities/blob/master/Log.PNG?raw=true" width=300 />
+### <img src="https://github.com/MAD-WeeklyAssignment/Lab4_TwoActivities/blob/master/Log.PNG?raw=true" width=600 />
 
 
 TwoActivities-SecondActivity_Screenshot
@@ -18,4 +18,5 @@ TwoActivities- Homework
 ### <img src="https://github.com/MAD-WeeklyAssignment/Lab4_TwoActivities/blob/master/L4Homework.gif?raw=true" width=300 />
 
 TwoActivities-challenge
-### <https://github.com/MAD-WeeklyAssignment/Lab4_TwoActivities/blob/master/L4challenge.gif?raw=true" width=300 />
+<img src="https://github.com/MAD-WeeklyAssignment/Lab4_TwoActivities/blob/master/L4challenge.gif?raw=true" width=300 />
+
